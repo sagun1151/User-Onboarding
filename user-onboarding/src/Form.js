@@ -25,7 +25,9 @@ return (
 
         <div className='form-user Submit'>
             <h2>New User?</h2>
-            <button disabled={disabled}>Sign Up</button>
+
+            <button id="signUp" disabled={disabled}> Sign Up </button>
+
             <div className='errors'>
                 <div>{errors.first_name}</div>
                 <div>{errors.last_name}</div>
